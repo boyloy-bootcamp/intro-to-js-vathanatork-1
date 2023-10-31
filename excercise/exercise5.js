@@ -18,7 +18,7 @@ console.log(smallest2); // Output: 3
  */
 
 function findSmallest(numbers) {
-  // Your code here
+   return  Math.min(...numbers);
 }
 
 module.exports = findSmallest;
